@@ -107,3 +107,17 @@ footer {
     width: 100%;
     position: relative;
 }
+
+@media (max-width: 480px) {
+    .hero-text h1 {
+        font-size: 1.8em;
+    }
+
+    .hero-text p {
+        font-size: 0.95em;
+    }
+
+    nav ul {
+        font-size: 0.9em;
+    }
+}
